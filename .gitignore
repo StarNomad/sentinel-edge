@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+sentinel.db
+*.mp4
+crops/
+models/*.onnx
+*.pt

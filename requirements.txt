@@ -1,0 +1,7 @@
+# onnxruntime-qnn: provides QNNExecutionProvider (Hexagon NPU) + CPU.
+# The plain `onnxruntime` wheel has NO QNN provider — a judge installing
+# that gets CPU-only inference (~18 FPS instead of ~42 on the Dell 5441).
+# Pinned to the version validated on the demo host (QAIRT SDK 2.47.0).
+onnxruntime-qnn==1.23.2
+opencv-python>=4.8
+numpy>=1.24
